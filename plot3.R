@@ -42,7 +42,7 @@ plot(Feb_2_3_power$DateTime2,Feb_2_3_power$Sub_metering_1,type="n",xlab=" ",ylab
 lines(Feb_2_3_power$DateTime2,Feb_2_3_power$Sub_metering_1,col="black")
 lines(Feb_2_3_power$DateTime2,Feb_2_3_power$Sub_metering_2,col="red")
 lines(Feb_2_3_power$DateTime2,Feb_2_3_power$Sub_metering_3,col="blue")
-legend("topright",col=c("black","blue","red"),legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),lty = 1)
+legend("topright",col=c("black","red","blue"),legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),lty = 1)
 
 #close png device
 dev.off()
